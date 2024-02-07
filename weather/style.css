@@ -15,7 +15,6 @@ main {
 }
 
 .card {
-
     width: 70%;
     height: 90%;
     margin: 0 auto;
@@ -152,4 +151,30 @@ button {
     text-align: center;
     outline: none;
     border: none;
+}
+
+@media screen and (max-width:972px) and (min-width:319px) {
+    main{
+        width: 100vw;
+        height: 100vh;
+    }
+    body{
+        width: 100vw;
+    }
+    .card__content{
+        width: 100%;
+        gap: 5px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .display{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .right{
+    }
+    input{
+        width: 70%;
+    }
 }
